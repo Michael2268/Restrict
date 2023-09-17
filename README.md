@@ -3,6 +3,8 @@
 The simple program for Windows user accounts restrictions management
 Applicable to be in use on school or college student's computers to prevent from changing desktop background, theme (and theme components) both through the registry and Control Panel. Also you can completely disable Control Panel and Settings app to prevent from changing system settings of PC.
 
+![Screenshot of the program](https://github.com/Michael2268/Restrict/blob/main/screenshot.png?raw=true)
+
 ## System requirements
 
 OS: Windows 10 and later with x64 architecture
