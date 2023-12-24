@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-24 14:25+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Restrict.py:22
+msgid "disc.title"
+msgstr "ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ"
+
+#: Restrict.py:22
+msgid "disc.text"
+msgstr "\n\nДанное приложение устанавливает ключи реестра для предотвращения изменения некоторых системных настроек другими пользователями. Вам необходимо запустить данное приложение от имени администратора (или из-под учетной записи администратора) для применения изменений, в противном случае вы получите ошибку Отказано в доступе.\n\nНЕ УСТАНАВЛИВАЙТЕ КЛЮЧИ РЕЕСТРА ДЛЯ УЧЕТНОЙ ЗАПИСИ АДМИНИСТРАТОРА, ЕСЛИ ОНА ЕДИНСТВЕННАЯ! ЭТО МОЖЕТ ПРИВЕСТИ К НЕПОЛАДКАМ!\n\nВы действительно хотите продолжить? [д/н]"
+
+#: Restrict.py:27
+msgid "disc.decline"
+msgstr "\nСоглашение не принято. Нажмите любую клавишу для выхода."
+
+#: Restrict.py:31
+msgid "ver"
+msgstr "Restrict (версия для командной строки. 1.1, запущена на"
+
+#: Restrict.py:41
+msgid "login.inc"
+msgstr "Неверное имя пользователя."
+
+#: Restrict.py:43
+msgid "sid"
+msgstr "\nSID пользователя:"
+
+#: Restrict.py:43
+msgid "login"
+msgstr "\nПоследний вход:"
+
+#: Restrict.py:46
+msgid "state.get"
+msgstr "Получение текущего состояния . . .\n"
+
+#: Restrict.py:50
+msgid "usr.active"
+msgstr "\nПользователь не найден в реестре. Убедитесь, что вы вошли в учетную запись, для которой производится настройка.\nЧтобы продолжить, нажмите клавишу Enter . . ."
+
+#: Restrict.py:56 Restrict.py:89 Restrict.py:107 Restrict.py:123
+#: Restrict.py:154 Restrict.py:167
+msgid "wallpaper"
+msgstr "Изображение рабочего стола"
+
+#: Restrict.py:57 Restrict.py:89 Restrict.py:107 Restrict.py:124
+#: Restrict.py:154 Restrict.py:167
+msgid "color"
+msgstr "Цветовая схема"
+
+#: Restrict.py:58 Restrict.py:89 Restrict.py:107 Restrict.py:125
+#: Restrict.py:154 Restrict.py:167
+msgid "theme"
+msgstr "Выбор темы"
+
+#: Restrict.py:59 Restrict.py:89 Restrict.py:107 Restrict.py:126
+#: Restrict.py:154 Restrict.py:167
+msgid "taskbar"
+msgstr "Панель задач"
+
+#: Restrict.py:60 Restrict.py:89 Restrict.py:107 Restrict.py:127
+#: Restrict.py:154 Restrict.py:167
+msgid "mouse"
+msgstr "Курсоры мыши"
+
+#: Restrict.py:61 Restrict.py:89 Restrict.py:107 Restrict.py:128
+#: Restrict.py:154 Restrict.py:167
+msgid "lockscr"
+msgstr "Экран блокировки"
+
+#: Restrict.py:62 Restrict.py:97 Restrict.py:114 Restrict.py:129
+#: Restrict.py:154 Restrict.py:167
+msgid "adm.enum"
+msgstr "Перечисление администраторов"
+
+#: Restrict.py:63 Restrict.py:97 Restrict.py:114 Restrict.py:130
+#: Restrict.py:140 Restrict.py:154 Restrict.py:167
+msgid "reg"
+msgstr "Инструменты реестра"
+
+#: Restrict.py:64 Restrict.py:97 Restrict.py:114 Restrict.py:131
+#: Restrict.py:154 Restrict.py:167
+msgid "mmc"
+msgstr "Оснастки консоли управления"
+
+#: Restrict.py:65 Restrict.py:97 Restrict.py:114 Restrict.py:132
+#: Restrict.py:154 Restrict.py:167
+msgid "control"
+msgstr "Панель управления и приложение Параметры"
+
+#: Restrict.py:67
+msgid "current"
+msgstr "Текущие ограничения пользователя:\n"
+
+#: Restrict.py:74
+msgid "disable"
+msgstr "Отключено"
+
+#: Restrict.py:76
+msgid "noconf"
+msgstr "Не настроено"
+
+#: Restrict.py:79
+msgid "enable"
+msgstr "Включено"
+
+#: Restrict.py:84
+msgid "action"
+msgstr "\nВыберите действие:\n[1] - Настроить ограничения (вкл/выкл)\n[2] - Задать ограничения по умолчанию\n[3] - Восстановить настройки по умолчанию для выбранных параметров\n[4] - Удалить все ключи\n"
+
+#: Restrict.py:88 Restrict.py:106
+msgid "grp.pers"
+msgstr "Параметры персонализации"
+
+#: Restrict.py:96 Restrict.py:113
+msgid "grp.sys"
+msgstr "Системные параметры"
+
+#: Restrict.py:101
+msgid "apply"
+msgstr "Будет применено:"
+
+#: Restrict.py:136
+msgid "ignore"
+msgstr "Игнорировать:"
+
+#: Restrict.py:139 Restrict.py:156
+msgid "reg.a.enable"
+msgstr "Добавление ключа реестра для задания ограничения для: "
+
+#: Restrict.py:141
+msgid "reg.reg.silent"
+msgstr "Предотвратить запуск инструментов реестра в тихом режиме?:\n[1] - Нет\n[2] - Да\n"
+
+#: Restrict.py:150
+msgid "reg.a.disable"
+msgstr "Отключение ключа реестра для отмены ограничения для: "
+
+#: Restrict.py:160
+msgid "reset"
+msgstr "Сбросить: "
+
+#: Restrict.py:162 Restrict.py:169
+msgid "reg.uninst"
+msgstr "Восстановление предыдущего значения для: "
+
+#: Restrict.py:173
+msgid "change.a.done"
+msgstr "Настройки применены. Вы хотите продолжить? [д/н] "
+
+#: Restrict.py:180
+msgid "change.u.done"
+msgstr "Настройки восстановлены. Вы хотите продолжить? [д/н] "
+
+#: Restrict.py:187
+msgid "exit"
+msgstr "Нажмите любую клавишу, чтобы выйти . . ."

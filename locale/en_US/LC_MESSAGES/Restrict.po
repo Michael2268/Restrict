@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-24 14:55+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Restrict.py:22
+msgid "disc.title"
+msgstr "DISCLAIMER"
+
+#: Restrict.py:22
+msgid "disc.text"
+msgstr "\n\nThis application installing a registry values to prevent some system settings for changing by other users. You must run this app with administrative privilegies (or from the logged in admin account) to apply changes, else you get the Access Denied error.\n\nDO NOT INSTALL KEYS FOR ADMIN USER ACCOUNT IF THIS IS THE ONLY ONE, IT MAY BE DESTRUCTIVE!\n\nAre you sure you want to continue? [y/n]"
+
+#: Restrict.py:27
+msgid "disc.decline"
+msgstr "\nDisclaimer isn't allowed. Press any key to exit."
+
+#: Restrict.py:31
+msgid "ver"
+msgstr "Restrict (console ver. 1.1, running on"
+
+#: Restrict.py:41
+msgid "login.inc"
+msgstr "Incorrect login."
+
+#: Restrict.py:43
+msgid "sid"
+msgstr "\nUser SID:"
+
+#: Restrict.py:43
+msgid "login"
+msgstr "\nLast login:"
+
+#: Restrict.py:46
+msgid "state.get"
+msgstr "Getting current state . . .\n"
+
+#: Restrict.py:50
+msgid "usr.active"
+msgstr "\nUser is not found in registry. Make sure you're signed in to the account you're setting up.\nPress Enter to continue . . ."
+
+#: Restrict.py:56 Restrict.py:89 Restrict.py:107 Restrict.py:123
+#: Restrict.py:154 Restrict.py:167
+msgid "wallpaper"
+msgstr "Wallpaper"
+
+#: Restrict.py:57 Restrict.py:89 Restrict.py:107 Restrict.py:124
+#: Restrict.py:154 Restrict.py:167
+msgid "color"
+msgstr "Color Scheme"
+
+#: Restrict.py:58 Restrict.py:89 Restrict.py:107 Restrict.py:125
+#: Restrict.py:154 Restrict.py:167
+msgid "theme"
+msgstr "Theme Select"
+
+#: Restrict.py:59 Restrict.py:89 Restrict.py:107 Restrict.py:126
+#: Restrict.py:154 Restrict.py:167
+msgid "taskbar"
+msgstr "Taskbar"
+
+#: Restrict.py:60 Restrict.py:89 Restrict.py:107 Restrict.py:127
+#: Restrict.py:154 Restrict.py:167
+msgid "mouse"
+msgstr "Mouse Pointers"
+
+#: Restrict.py:61 Restrict.py:89 Restrict.py:107 Restrict.py:128
+#: Restrict.py:154 Restrict.py:167
+msgid "lockscr"
+msgstr "Lock Screen"
+
+#: Restrict.py:62 Restrict.py:97 Restrict.py:114 Restrict.py:129
+#: Restrict.py:154 Restrict.py:167
+msgid "adm.enum"
+msgstr "Administrators Enumeration"
+
+#: Restrict.py:63 Restrict.py:97 Restrict.py:114 Restrict.py:130
+#: Restrict.py:140 Restrict.py:154 Restrict.py:167
+msgid "reg"
+msgstr "Registry Tools"
+
+#: Restrict.py:64 Restrict.py:97 Restrict.py:114 Restrict.py:131
+#: Restrict.py:154 Restrict.py:167
+msgid "mmc"
+msgstr "MMC snap-ins"
+
+#: Restrict.py:65 Restrict.py:97 Restrict.py:114 Restrict.py:132
+#: Restrict.py:154 Restrict.py:167
+msgid "control"
+msgstr "Control Panel and Settings"
+
+#: Restrict.py:67
+msgid "current"
+msgstr "Current restrictions of user:\n"
+
+#: Restrict.py:74
+msgid "disable"
+msgstr "Disabled"
+
+#: Restrict.py:76
+msgid "noconf"
+msgstr "Not configured"
+
+#: Restrict.py:79
+msgid "enable"
+msgstr "Enabled"
+
+#: Restrict.py:84
+msgid "action"
+msgstr "\nSelect an action:\n[1] - Apply values to keys (enable / disable)\n[2] -Set default restrictions to user\n[3] - Restore default settings for selected keys\n[4] - Uninstall all keys\n"
+
+#: Restrict.py:88 Restrict.py:106
+msgid "grp.pers"
+msgstr "Personalization parameters"
+
+#: Restrict.py:96 Restrict.py:113
+msgid "grp.sys"
+msgstr "System parameters"
+
+#: Restrict.py:101
+msgid "apply"
+msgstr "Apply:"
+
+#: Restrict.py:136
+msgid "ignore"
+msgstr "Ignore:"
+
+#: Restrict.py:139 Restrict.py:156
+msgid "reg.a.enable"
+msgstr "Adding registry key to apply restrictions for: "
+
+#: Restrict.py:141
+msgid "reg.reg.silent"
+msgstr "Disable regedit from running silently?:\n[1] - No\n[2] - Yes\n"
+
+#: Restrict.py:150
+msgid "reg.a.disable"
+msgstr "Disable registry key to allow function: "
+
+#: Restrict.py:160
+msgid "reset"
+msgstr "Reset:"
+
+#: Restrict.py:162 Restrict.py:169
+msgid "reg.uninst"
+msgstr "Restoring default values for: "
+
+#: Restrict.py:173
+msgid "change.a.done"
+msgstr "Settings are applied. Do you want to continue? [y/n] "
+
+#: Restrict.py:180
+msgid "change.u.done"
+msgstr "Settings are restored. Do you want to continue? [y/n] "
+
+#: Restrict.py:187
+msgid "exit"
+msgstr "Press any key to exit . . ."
